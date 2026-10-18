@@ -1,0 +1,313 @@
+﻿body {
+    margin: 0;
+    font-family: Arial;
+    background-color: #f2f2f2;
+}
+
+.header {
+    background-color: #333333;
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
+
+.header h1 {
+    margin: 0;
+    font-size: 30px;
+}
+
+.header p {
+    margin: 8px;
+}
+
+.menu {
+    background-color: #444444;
+    text-align: center;
+    padding: 15px;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 25px;
+    margin: 5px;
+}
+
+.menu a:hover {
+    background-color: #666666;
+}
+
+.content {
+    width: 90%;
+    min-height: 400px;
+    margin: 20px auto;
+    padding: 25px;
+    background-color: white;
+}
+
+.footer {
+    background-color: #333333;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+.product-detail-box {
+    width: 500px;
+    margin: 30px auto;
+    padding: 30px;
+    border: 1px solid #ddd;
+    text-align: left;
+    background: #ffffff;
+}
+
+.product-detail-box h2 {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.product-detail-box p {
+    font-size: 17px;
+    margin: 15px 0;
+}
+
+.product-detail-box input[type=submit] {
+    padding: 10px 25px;
+    margin-top: 15px;
+    cursor: pointer;
+}
+.category-filter {
+    margin: 20px;
+    text-align: center;
+}
+
+.category-filter select {
+    padding: 8px;
+    margin-top: 10px;
+    font-size: 15px;
+}
+.repeater-products {
+    padding: 30px;
+    text-align: center;
+}
+
+.product-card {
+    display: inline-block;
+    width: 240px;
+    min-height: 220px;
+    margin: 15px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    vertical-align: top;
+    text-align: left;
+    background: #fff;
+}
+
+.product-card h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.product-card p {
+    margin: 10px 0;
+}
+
+.product-card a {
+    display: inline-block;
+    margin-top: 10px;
+}
+.register-container {
+    width: 550px;
+    margin: 40px auto;
+    padding: 30px;
+    text-align: center;
+    border: 1px solid #ddd;
+    background: #fff;
+}
+
+.register-container h1 {
+    margin-bottom: 10px;
+}
+
+.form-row {
+    margin: 18px 0;
+    text-align: left;
+}
+
+.form-row label {
+    display: inline-block;
+    width: 150px;
+}
+
+.form-row input[type=text],
+.form-row input[type=password] {
+    width: 250px;
+    padding: 8px;
+}
+
+.form-row input[type=submit] {
+    padding: 10px 25px;
+    cursor: pointer;
+}
+
+.validation-summary {
+    margin: 15px;
+}
+
+.register-container span {
+    margin-left: 5px;
+}
+/* ================================
+   USER DASHBOARD
+   ================================ */
+
+.user-dashboard {
+    width: 95%;
+    margin: 30px auto;
+}
+
+
+/* Header */
+
+.dashboard-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 25px;
+    border-bottom: 1px solid #ddd;
+}
+
+.dashboard-header h1 {
+    margin: 0 0 8px 0;
+    font-size: 30px;
+}
+
+.welcome-text {
+    font-size: 16px;
+}
+
+
+/* Logout */
+
+.logout-button {
+    padding: 10px 22px;
+    cursor: pointer;
+}
+
+
+/* Dashboard Menu */
+
+.dashboard-menu {
+    text-align: center;
+    padding: 15px;
+    border-bottom: 1px solid #ddd;
+}
+
+.dashboard-link {
+    display: inline-block;
+    margin: 0 15px;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+
+/* Banner */
+
+.dashboard-banner {
+    text-align: center;
+    padding: 45px 20px;
+    margin: 25px 0;
+    border: 1px solid #ddd;
+}
+
+.dashboard-banner h2 {
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.dashboard-banner p {
+    font-size: 17px;
+    margin-bottom: 20px;
+}
+
+.shop-button {
+    padding: 11px 28px;
+    cursor: pointer;
+}
+
+
+/* Sections */
+
+.dashboard-section {
+    margin: 30px 0;
+    padding: 20px;
+    border: 1px solid #ddd;
+}
+
+.dashboard-section h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+
+/* Search */
+
+.dashboard-search {
+    text-align: center;
+}
+
+.search-box {
+    width: 250px;
+    padding: 9px;
+    margin: 5px;
+}
+
+.search-button {
+    padding: 9px 18px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+
+/* Category */
+
+.category-list {
+    display: block;
+    margin: 0 auto;
+    width: 220px;
+    padding: 5px;
+}
+
+
+/* GridView */
+
+.products-grid {
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+
+.products-grid th {
+    padding: 12px;
+    text-align: center;
+}
+
+.products-grid td {
+    padding: 10px;
+    text-align: center;
+}
+
+
+/* View Details */
+
+.view-button {
+    text-decoration: none;
+    padding: 6px 10px;
+}
+
+
+/* Message */
+
+.dashboard-message {
+    text-align: center;
+    margin: 20px;
+    font-size: 16px;
+}

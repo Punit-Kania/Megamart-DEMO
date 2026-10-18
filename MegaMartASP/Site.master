@@ -1,0 +1,94 @@
+﻿<%@ Master Language="VB" AutoEventWireup="false"
+    CodeFile="Site.master.vb"
+    Inherits="Site" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head id="Head1" runat="server">
+
+    <title>MegaMart</title>
+
+    <link href="StyleSheet.css"
+          rel="stylesheet"
+          type="text/css" />
+
+    <asp:ContentPlaceHolder ID="HeadContent"
+        runat="server">
+    </asp:ContentPlaceHolder>
+
+</head>
+
+<body>
+
+<form id="form1" runat="server">
+
+    <!-- HEADER -->
+
+    <div class="header">
+
+        <h1>MegaMart</h1>
+
+        <p>Online Shopping Portal</p>
+
+    </div>
+
+
+    <!-- NAVIGATION -->
+
+    <div class="menu">
+
+        <asp:HyperLink ID="lnkHome"
+            runat="server"
+            NavigateUrl="~/Default.aspx">
+            Home
+        </asp:HyperLink>
+
+        <asp:HyperLink ID="lnkProducts"
+            runat="server"
+            NavigateUrl="~/Products.aspx">
+            Products
+        </asp:HyperLink>
+
+        <asp:HyperLink ID="lnkLogin"
+            runat="server"
+            NavigateUrl="~/Login.aspx">x
+            Login
+        </asp:HyperLink>
+
+        <asp:HyperLink ID="lnkRegister"
+            runat="server"
+            NavigateUrl="~/Register.aspx">
+            Register
+        </asp:HyperLink>
+
+    </div>
+
+
+    <!-- MAIN CONTENT -->
+
+    <div class="content">
+
+        <asp:ContentPlaceHolder ID="MainContent"
+            runat="server">
+        </asp:ContentPlaceHolder>
+
+    </div>
+
+
+    <!-- FOOTER -->
+
+    <div class="footer">
+
+        <p>
+            © 2026 MegaMart. All Rights Reserved.
+        </p>
+
+    </div>
+
+</form>
+
+</body>
+
+</html>
